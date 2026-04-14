@@ -177,6 +177,10 @@
   text-decoration: none;
   color: var(--color-text);
 }
+.logo img {
+  background: #e8ecf2;
+  border-radius: 6px;
+}
 .logo-text {
   font-family: var(--font-display);
   font-weight: 700;
