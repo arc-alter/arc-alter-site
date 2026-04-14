@@ -168,7 +168,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 80px;
+  height: 116px;
 }
 .logo {
   display: flex;
@@ -803,10 +803,12 @@
   grid-template-columns: 1fr;
   gap: var(--space-6);
   margin-bottom: var(--space-8);
+  align-items: end;
 }
 @media (min-width: 640px) {
   .footer-grid {
     grid-template-columns: 2fr 1fr 1fr;
+    align-items: end;
   }
 }
 .footer-brand p {
