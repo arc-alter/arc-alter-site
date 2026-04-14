@@ -803,12 +803,12 @@
   grid-template-columns: 1fr;
   gap: var(--space-6);
   margin-bottom: var(--space-8);
-  align-items: end;
+  align-items: start;
 }
 @media (min-width: 640px) {
   .footer-grid {
     grid-template-columns: 2fr 1fr 1fr;
-    align-items: end;
+    align-items: start;
   }
 }
 .footer-brand p {
